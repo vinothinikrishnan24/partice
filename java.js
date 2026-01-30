@@ -40,11 +40,12 @@ console.log("let:-",a);
 //19.const city ="chennai";
 // console.log(city);
 
-// 20.var country="India";
-// let a=3;
-// const pi=3.14;
-// console.log("var:-",country);
-// console.log("let:-",a);
-// console.log("const:-",pi);
+// 20.
+var country="India";
+let z =3;
+const pi=3.14;
+console.log("var:-",country);
+console.log("let:-",a);
+console.log("const:-",pi);
 
 
