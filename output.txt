@@ -1,0 +1,78 @@
+//1.What is the difference between var, let, and const?var-global/function scope,allows redeclaration and reintization,values can be changed
+    let-block scope,allows reinitialization  but not allows redeclaration,values can be changed
+    const-block scope,not allows redeclaration and redeclaration,values cannot be changed
+//2.Which keyword allows redeclaration and why?
+var keyword allows redeclaration function scope declared same variable name again the same scope
+//3.Which keyword allows reinitialization?
+var and let keyword alows the reintization because after variable declared values can be changed using Assignment
+//4.	Which keyword does not allow redeclaration and reinitialization?
+const keyword does not allow redeclaration and reinitialization because once value assgined means its fixed we cannot changed or declared again or reassigned
+//5.Why should const be used for fixed values?
+prevent value changes,improves code safety,and used value should be remain constant
+//6.What error occurs when redeclaring a let variable?
+SyntaxError occurs-Identifier  already been declared
+//7.What error occurs when reassigning a const variable?
+TypeError occurs- Assignment to constant variable
+//8.Which keyword is preferred in modern JavaScript and why?
+et and const ,because provide block scope and reduce bugs compared to var
+//9.Can const be declared without initialization? Explain.
+no,must be initialized the time declaration ,other wise it throws a SyntaxError
+//10.When should var be avoided?
+modern js ,block scope required,avoid redeclaration & hositing issues
+// 11.var a=10;
+// a=20;
+// var a=30;
+// console.log(a);
+//output-30
+
+
+//12. let b = 5;
+// b=15;
+// console.log(b);
+//Output: 15
+
+//13. let x =10;
+// let x =20; SyntaxError: Identifier 'x' has already been declared
+
+//14. const y=50;
+// y=100; TypeError: Assignment to constant variable.
+
+
+// 15.Write a program using var to show redeclaration.
+var z=70;
+// var z=80;
+// console.log("var redeclaration:-",z);
+
+
+// 16.Write a program using let to show reinitialization.
+let c=2;
+// c=3;
+// console.log(c);
+
+//17.Write a program using const and explain why value cannot change.
+ const d=0;
+// d=5// Error: Assignment to constant variable
+// console.log(d);
+
+// 18.Convert var to let where applicable.
+Before: var age = 5;
+//after
+let a=3;
+//console.log("let:-",b);
+
+
+//19.Convert var to const where applicable.
+Before: var city = "Erode";
+//after
+//const city ="chennai";
+// console.log(city);
+
+// 20.Write your own example for var, let, and const.
+var country="India";
+// let a=3;
+// const pi=3.14;
+// console.log("var:-",country);
+// console.log("let:-",a);
+// console.log("const:-",pi);
+
+
